@@ -1,0 +1,97 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데기공:사업소개</title>
+
+    <script src="https://kit.fontawesome.com/f5208ed402.js" crossorigin="anonymous"></script>  <!-- 폰트어썸 -->
+    <script src="../common/js/prefixfree.min.js"></script> 
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/sub2_2content.css">
+
+ <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+   
+    <div class="wrap">   
+       
+      <!-- sub 헤더 영역 -->
+      <? include "../common/sub_head.html" ?>
+
+            <div class="visual"><img src="common/images/visual_bg3.jpg" alt="서브메뉴 배경화면"></div>    
+
+            <div class="sub_menu">
+                <h3>사업소개</h3>
+                <ul>
+                    <li><a href="./sub2_1.html">냉기부문</a> </li>
+                    <li class="current"><a href="./sub2_2.html">공조/냉난방부문</a> </li>
+                    <li><a href="./sub2_3.html">주차부문</a> </li>
+                    <li><a href="./sub2_4.html">Total Solution</a> </li>
+                    <li><a href="./sub2_5.html">열기부문</a> </li>
+                </ul>
+            </div>
+
+            <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <img src="common/images/line_map_logo.png" alt="로고"> HOME &gt; 사업소개 &gt; <strong>공조/냉난방부문</strong>                         
+                    </div>
+                  
+                    <div class="h2_div">
+                        <img class="hidden" src="" alt="">
+                        <h2>공조/냉난방부문</h2>                     
+                        <dl>
+                            <dt> <i class="fas fa-fan"></i>  사업부소개 <i class="fas fa-fan"></i> </dt> 
+                            <dd><strong>롯데기공</strong>의 기술이 여러분에게 시원함을 더해드리며, 자연의 느낌 그대로 <br> 더욱 신선하고 풍요로운 생활을 만들어 드립니다.<br>
+                                <br> 환경과 생활을 최우선으로 생각하는 <strong>롯데기공</strong>의 기술은 <br>공기조화에서
+                                냉/난방에 이르기까지 여러분의 생활 곳곳에서 만나실 수 있습니다.</dd>
+                        </dl>   
+                    </div>
+                </div>
+                
+                <!-- 본문영역 -->
+                <div class="content_area">
+                     <dl>
+                         <dt><i class="far fa-check-circle"></i> GHP</dt>
+                         <dd>비용절감과 더불에 쾌적한 환경을 제공하는 첨단 가스 냉/난방 공조시스템</dd>
+                         <dt><i class="far fa-check-circle"></i> EHP</dt>
+                         <dd>고층빌딩에서 소형상가까지 냉/난방을 만족시키는 용량가변형 히트펌프 시스템</dd>
+                         <dt><i class="far fa-check-circle"></i> 환기장치(ESV)</dt>
+                         <dd>롯데기공의 첨단 기술력으로 완성해낸 실내 환기 청정시스템은 주택의 새집증후군 제거 및 공기청정기능을
+                            제공함으로써 365일 숲속과 같은 쾌적하고 청정한 실내환경을 실현하는 에너지 절감형 최첨단 환기시스템입니다.</dd>
+                     </dl>  
+                                   
+                        <div>
+                            <P>종합 공조/냉난방 기업으로 도약하는 롯데기공이 되겠습니다</P>
+                               <dl>
+                                   <dt>쾌적한 환경 풍요로운 삶</dt>
+                                   <dd>EHP</dd>
+                                   <dd>ESV</dd>
+                                   <dd>GHP</dd>
+                               </dl>
+                        </div>                            
+                               
+                </div>
+
+            </article>
+
+            <!-- sub footer 푸터 영역 -->
+           <? include "../common/sub_foot.html"  ?>
+    </div>
+   <!-- jquery -->
+   <script src="../common/js/jquery-1.12.4.min.js"></script>
+   <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+   <script src="../common/js/fullnav.js"></script>
+</body>
+</html>

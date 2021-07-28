@@ -1,0 +1,131 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데기공:고객센터</title>
+
+    <script src="https://kit.fontawesome.com/f5208ed402.js" crossorigin="anonymous"></script>  <!-- 폰트어썸 -->
+    <script src="../common/js/prefixfree.min.js"></script> 
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/sub5_1content.css">
+
+ <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+   
+    <div class="wrap">
+       
+       <!-- header 헤더 영역 -->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual"><img src="common/images/visual_bg4.jpg" alt="서브메뉴 배경화면"></div>    
+
+        <div class="sub_menu">
+            <h3>고객센터</h3>
+            <ul>
+                <li class="current"><a href="./sub5_1.html">A/S</a> </li>
+                <li><a href="./sub5_2.html">CONTACT</a> </li>
+                <li><a href="./sub5_3.html">FAQ</a> </li>
+                <li><a href="../news/list.php">NEWS</a> </li>
+                <li><a href="../download/list.php">DATA</a> </li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <img src="common/images/line_map_logo.png" alt="로고"> HOME &gt; 고객센터 &gt; <strong>A/S</strong>                         
+                </div>
+                             
+                <div class="h2_div02">
+                    <h2>A/S</h2>   
+                    <i class="fas fa-angle-double-down"></i>
+                    <p>롯데기공 생산 제품의 서비스망 구축현황을 보실 수 있습니다<br>마음을 여는 서비스, 고객과 하나되는 롯데기공의 열린 마음입니다</p>
+               </div>
+            </div>
+
+            <div class="content_area">
+
+               <div class="content01">
+                   <h3>A/S 안내</h3>
+                    <ul>                        
+                        <li><i class="fas fa-info-circle"></i> 롯데기공의 제품구입 문의는 가까운 대리점 또는
+                            냉기영업팀과 시스템 설비팀으로 연락바랍니다.</li>
+                        <li><i class="fas fa-info-circle"></i> 자판기/쇼케이스/커피자판기/기타 : 전국 어디서나 Tel. 1588-1172</li>
+                        <li><i class="fas fa-info-circle"></i> 보일러 : 전국 어디서나 Tel. 1588-8888 )</li>
+                        <li><i class="fas fa-info-circle"></i> 자판기 영업팀 : 02-760-6766</li>
+                    </ul>
+               </div>
+               
+               <div class="content02">
+                    <h3>주차 A/S 안내</h3>
+
+                    <ul class="content02_img01">                        
+                        <h4>서비스 조직도 (수도권/서울)</h4>
+                        <li>
+                            센터A (02-561-9113)- A/S담당책임자 : 이경상    <br>
+                        <span class="s01">강남 (02-563-9170)</span>
+                        <span class="s02">강북 (02-997-7910)</span>
+                        <span class="s03">강서 (02-855-5565)</span>
+                        </li>
+
+                        <li>센터B (02-3499-2121~4)- A/S담당책임자 : 허정호</li>
+
+                        <li>센터C (032-345-4646)- A/S담당책임자 : 고종윤 <br>
+                        <span> 강남 (02-62035-5525)</span></li>
+
+                        <li>센터D (02-2651-5590)- A/S담당책임자 : 장병섭</li>
+                        <li>센터E (031-265-4321)- A/S담당책임자 : 김동효</li>
+                        <li>센터F (02-2635-9220)- A/S담당책임자 : 이상훈</li>
+                    </ul>
+
+                       <ul class="content02_img02">
+                            <h4>지방</h4>
+                            <li>대전센터 (042-252-0755)
+                                - A/S담당책임자 : 송석중</li>
+                            <li>광주센터 (062-369-4130)
+                                - A/S담당책임자 : 장인대</li>
+                            <li>부산센터A (051-809-5944)
+                                - A/S담당책임자 : 백일문</li>
+                            <li>부산센터B (051-506-3735)
+                                - A/S담당책임자 : 이상오</li>
+                            <li>부산센터C (051-891-0103)
+                                - A/S담당책임자 : 김재성</li>
+                        </ul>          
+
+                              <div class="content02_img02">
+                                   <h4>서비스 조직도</h4>
+                                    <li>롯데기공 주차설비 A/S팀
+                                        02-3270-0443                            
+                                        팀장 : 정재원</li>
+                                  
+                                    <li>본사관리팀
+                                        나행식 : 02-3270-0594                            
+                                        최영수 : 02-3270-0592</li>
+                              </div>
+                      
+               </div>
+            </div>
+        </article>
+
+        <!-- footer 푸터 영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+       <!-- jquery -->
+       <script src="../common/js/jquery-1.12.4.min.js"></script>
+       <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+       <script src="../common/js/fullnav.js"></script>
+</body>
+</html>

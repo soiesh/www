@@ -1,0 +1,21 @@
+/* sub1_2 본문 영역 */
+
+.visual {width: 100%; height: 160px; background: url(../images/sub1_main.jpg) center no-repeat; background-size: cover;}
+
+.h3_div {margin: 50px 0px ; text-align: center; font-size: 1.25em;}
+.h3_div h3 {color: #062045; font-weight: bold;}
+.h3_div img {padding: 15px 0;}
+
+.content01 {margin-bottom: 180px;}
+.phil_txt p {line-height: 1.5em; font-size: 1.25em; text-align: justify; margin-bottom: 50px;}
+
+.content01 ul {display: flex; flex-direction: column;text-align: center; }
+.content01 ul li img {width: 169px; margin: 20px auto;}
+.content01 ul li span {display: block; font-weight: bold;}
+
+.content02 {text-align: center; }
+.prin {margin: 0 auto;}
+.prin dl{margin: 50px auto; line-height: 2em; font-size: 1.25em;}
+.prin dt {font-weight: bold;}
+.prin dd {list-style-type: lower-roman;}
+

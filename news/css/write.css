@@ -1,0 +1,22 @@
+#content_area { text-align: center; width: 900px; margin: 50px auto;font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+#content_area #write_form {width: 800px; margin: 0 auto; }
+
+#write_row1,#write_row2, #write_row3 {overflow: hidden; width: 800px; margin: 20px auto;}
+#write_row1 .col1 {margin-left: 80px; float: left;}
+#write_row1 .col2 {margin-right: 580px; float: right;}
+#write_row1 .col3 {clear: both; margin: 30px 0 0 80px;}
+
+#write_row2 .col1 {margin-left: 80px; margin-top: 10px; float: left;}
+#write_row2 .col2 {margin-right: 80px; float: right;}
+#write_row2 .col2 input {width: 580px; height: 25px;}
+
+#write_row3 .col1 {margin-top: 20px;}
+#write_row3 .col2 textarea {width: 794px;font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+
+
+#write_row4,#write_row5, #write_row6 {margin: 20px auto; width: 800px;}
+.delete_ok {width: 800px; margin: 0 auto;}
+
+#write_button {margin: 50px 20px 30px 200px; font-weight: bold; font-size: 1.25em; margin-bottom: 100px;}
+#write_button a {background-color: rgba(238, 236, 236, .5);}
+

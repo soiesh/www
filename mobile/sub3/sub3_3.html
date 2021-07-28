@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>LOTTE E&M: Boiler</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="css/sub3_3.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css"/>    
+
+    <script src="https://kit.fontawesome.com/f5208ed402.js" crossorigin="anonymous"></script>  <!-- 폰트어썸 -->
+    
+
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+   
+    <div id="wrap">   
+       
+      <!-- sub 헤더 영역 -->
+      <? include "../common/sub_head.html" ?>
+
+      <div class="visual">
+          <h2>Boiler</h2>
+      </div>    
+                          
+                <!-- 본문영역 -->
+            <article id="content">
+               
+                <div class="content">                     
+                                       
+                        <div class="h3_div">
+                            <h3>Lotte E&M's Boiler</h3>
+                            <img src="images/h_triangle.png" alt="">
+                            <p>Leader of cutting edge technology <br> Pride of LOTTE E&M is more than usual</p>
+                        </div>                                              
+
+                        <div class="m_cont">
+                            <ul class="pro_list">
+                                <li><a rel="fancybox" title="Q'HOME Premium Condensing Boiler" href="images/content01_001.jpg"><img src="images/s02_thumb_01.png"><span>LGB-F179CO</span></a></li>
+                                <li><a rel="fancybox" title="Q'HOME Condensing Boiler" href="images/content01_002.jpg"><img src="images/s02_thumb_02.png"><span>HGB-F166CO</span></a></li>
+                                <li><a rel="fancybox" title="Oh-K Condensing Boiler" href="images/content02_001.jpg"><img src="images/s02_thumb_02.png"><span>LGB-F166CO</span></a></li>
+                                <li><a rel="fancybox" title="Q'HOME Boiler" href="images/content02_002.jpg"><img src="images/s02_thumb_04.png"><span>F130BO</span></a></li>
+                               
+                            </ul>
+                            
+                        </div>
+                                       
+                        <div class="cf">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NNo5qiYfA1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="h3_div">
+                            <h3>Indoor Temperature Controller</h3>
+                            <img src="images/h_triangle.png" alt="">
+                            <p>Meet the warmth that Lotte E&M makes just like a family</p>
+                        </div>                                              
+
+                        <div class="m_cont">
+                            <ul class="pro_list">
+                                <li><a rel="fancybox" title="S-01" href="images/controller_01.png"><img src="images/TH_controller_01.png"><span>S-01</span></a></li>
+                                <li><a rel="fancybox" title="H-07" href="images/controller_02.png"><img src="images/TH_controller_02.png"><span>H-07</span></a></li>
+                                <li><a rel="fancybox" title="J-06" href="images/controller_03.png"><img src="images/TH_controller_03.png"><span>J-06</span></a></li>
+                                <li><a rel="fancybox" title="V-01" href="images/controller_04.png"><img src="images/TH_controller_04.png"><span>V-01</span></a></li>
+                            </ul>
+                            
+                        </div>
+                        <img class="bttmbg" src="images/bttmbg2.jpg" alt="img">
+                </div>
+            </article>
+
+            <!-- sub footer 푸터 영역 -->
+           <? include "../common/sub_foot.html" ?>     
+           
+    </div>
+
+    <!-- jquery -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script> 
+    <script src="../js/prefixfree.min.js"></script> 
+
+    <script src="../js/menu_ham.js"></script>
+    <script src="../js/combine.js"></script>
+    
+    <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script src="fancybox/jquery.easing-1.3.pack.js"></script>
+    <script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script> 
+        $(document).ready(function () {
+            $('.pro_list a').fancybox();
+        });
+        </script>
+</body>
+</html>

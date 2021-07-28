@@ -1,0 +1,18 @@
+/* SUB4_1 본문 영역 */
+#content .content_area .content01 h3, .content02 h3, .content03 h3 { font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center; 
+    margin-bottom: 150px; font-size: 3em;}
+
+.content_area .content01_img, .content02_img  {margin: 0 0 100px 0; text-align: center;}
+.content_area img {height: 300px; opacity: .8;}
+.content_area img:hover {transform: scale(1.05); opacity: 1;}
+
+.content_area .content02_img img {margin-left: 30px;}
+
+/* 테이블 겉의 div & p */
+.content_area .content01 .content01_rfrg, .content02 .content02_gls, .content03 .content03_frz {font-size: 1.25em; line-height: 1.5em; margin-bottom: 150px; margin-left: 47px;
+         font-family: 'Noto Sans KR', sans-serif; }
+.content_area .content01_rfrg p, .content02_gls p, .content03_frz p {margin-bottom: 50px; text-align: justify; } 
+
+/* 테이블 속성 */
+.content_area table th, td {border: dotted 1px #ccc; padding: 20px 40px;}
+.content_area table thead, tbody th {background-color: #fafafa;}

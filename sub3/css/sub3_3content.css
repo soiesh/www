@@ -1,0 +1,23 @@
+/* sub 3_3 영역 */
+.content_area .h3_div{position: relative; margin-bottom: 50px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center;}
+.content_area .h3_div h3{font-size: 3em;  margin-bottom: 176px; font-weight:400;}
+.content_area .h3_div img{position: absolute; left: 600px; top: 129.11px; margin-left: -13px;}
+.content_area .h3_div p{ font-size: 1.5em; color:#54585a; line-height: 1.5em; margin-top: 74px;}
+
+.content_area .content01 {margin-top: 80px; margin-bottom: 200px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;}
+.content_area .content01 p {font-size: 1.25em; line-height: 1.5em; margin-bottom: 70px;}
+.content_area .content01 strong {font-weight: bold; font-size: 1.375em; display: block;}
+
+.content_area .content01_move {background: url(../images/content3/content01_img02.png) no-repeat center; box-shadow: 2px 2px 3px 1px rgba(0,0,0,.4);
+    text-indent: -9999px; height: 398px; margin-bottom: 100px;}
+.content_area .content01_evaluate {background: url(../images/content3/content01_img01.png) no-repeat center; box-shadow: 2px 2px 3px 1px rgba(0,0,0,.4);
+    text-indent: -9999px; height: 408px; margin-bottom: 100px;}
+
+
+.content02 ul {overflow: hidden; margin-bottom: 150px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400;}
+.content02 ul li {float: left; width: 550px; margin-bottom: 50px; background-color:honeydew; margin: 50px 20px; border-radius: 0 20px 0 20px;
+    -webkit-border-radius:0 20px 0 20px; box-shadow: 2px 2px 3px 1px rgba(0,0,0,.4); transition: all 0.5s;}
+.content02 ul li img {float: left; width: 180px; height: 180px; padding-top: 20px;}
+.content02 ul li p {line-height: 1.7em; font-size: 1.25em; width: 350px; height: 200px; text-align: center; padding: 20px 20px 0 180px;}
+.content02 ul li:nth-of-type(3n+1) {background-color: rgb(200, 255, 237);}
+.content02 ul li:hover {transform: scale(.96); background-color: rgba(255, 255, 255, 0.3);}

@@ -1,0 +1,9 @@
+/* SUB2_1 본문 영역 */
+
+#content .content_area dl{margin: 0 0 150px 0px; text-align: center;}
+#content .content_area dt{overflow: hidden; position: relative; font-weight: bold; font-size: 1.5em; margin-bottom: 10px;}
+#content .content_area dt::before{content: ''; display: block; width: 7px; height: 7px; background-color: #d00024; border-radius: 70px;
+    -moz-border-radius: 70px; -webkit-border-radius: 70px;  margin-left: 530px; position: absolute; top: 10px;}
+#content .content_area dd{margin-bottom: 40px; line-height: 2.4em;}
+
+#content .content_area {background: url(../images/content1/content_bg2.png) no-repeat top ; ;}

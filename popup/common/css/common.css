@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+
+/* 헤드라인 폰트 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; font-weight:400 700 800 중에*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Myeongjo', serif; font-weight:400 700 800 중에 */
+
+#headerArea .login_join{ color:#333; 
+  font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 0.875em;}
+#headerArea #gnb{ color:#333;
+  font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size:1.5em;}
+
+/* 푸터 footer 폰트 연결 */
+#footerArea .footer_menu a{ color:white;
+  font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1em;}
+#footerArea .footerBttm { color:white; text-align: right; line-height: 1.5em;
+  font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 1em;}
+
+
+
+/* skipNav 영역 */
+#skipNav{position:relative;width:100%;overflow:hidden; z-index:10}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+   overflow:hidden; text-align:center; text-decoration:none; color:white; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+  display:block;height:auto;padding:10px 0; background: rgb(6, 32, 69);}
+
+
+  /* 헤더 공통영역 */
+.wrap{width: 100%; overflow: hidden;}
+
+#headerArea{position: fixed; width: 100%; background: #fff; z-index: 100;
+   border-bottom: solid 1px #ccc; box-shadow: 0 0 10px #999; opacity: .92;}
+#headerArea::before{content:''; display: block; background: #d00024; width: 100%; height: 32px;
+    position: absolute; left: 0; top: 0; z-index:-1;}   
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}   
+
+#headerArea .top_menu{ height: 32px; float: right; overflow: hidden;}
+#headerArea .top_menu ul{overflow: hidden;}
+#headerArea .top_menu li {margin: 5px 0 0 35px; float: left;}
+#headerArea .top_menu li a {color: #fff; font-weight: bold;}                    
+#headerArea .top_menu li a:hover{color: rgb(6, 32, 69);}
+
+/* 서치 팝업 
+#headerArea .search_box {width: 300px; height: 100px; padding: 20px; background: rgba(0,0,0,.5); position: ;}
+#headerArea .search_box:focus {border: #fff solid 2px;}
+#headerArea .search_wrap li .search_bttn img:hover{transform: scale(.2); color: #fff;} */
+
+#headerArea .logo {width: 1200px; height: 85px; padding-bottom: 35px;}
+#headerArea .logo a{width: 220px; height: 50px; 
+    display: block; background: url(../images/header_logo.png) center no-repeat; text-indent: -9999px; overflow: hidden;
+    position: relative; left: 490px; top: 50px;}
+#headerArea #gnb {width: 1200px; height: 50px;}
+#headerArea #gnb ul{overflow: hidden; padding-top: 10px;}
+#headerArea #gnb li{float: left; width: 240px;}
+#headerArea #gnb li a{margin-left: 75px;}
+#headerArea #gnb li a:hover{color: #666; }
+
+/* 푸터 footer 공통영역 */
+#footerArea{width: 100%; height: 289px; position: relative; background:#2e2e2e;}
+#footerArea #footer_inner{margin: 0 auto; width: 100%;}
+#footerArea::before{content:''; display: block; background: #484646; width: 100%; height: 44px;
+  position: absolute; left: 0; top: 0;}  
+
+#footerArea .footer_menu{width: 1200px; height: 44px; margin: 0 auto; position: relative;}
+#footerArea .footer_menu ul{overflow: hidden;}
+#footerArea .footer_menu li{float: left; margin: 10px 0 0 130px;}
+#footerArea .footer_menu li:hover{text-decoration: underline;}
+
+#footerArea .footerBttm {width: 1200px; height: 245px; margin: 0 auto; position: relative; overflow: hidden; }
+#footerArea .footer_logo {width: 643px; height: 245px; position: absolute; left: 0px; bottom: 0px; float: left;}
+#footerArea .footer_txt{width: 557px; height: 245px; float: right; padding: 75px 45px 0px 0;}
+#footerArea .footer_sm_txt {font-size: .625em;}
+
+#footerArea .sns_lotte {overflow: hidden; margin: 30px 0 0 350px;}
+#footerArea .sns_lotte li{float: left; margin-left: 14px;}
+#footerArea .sns_lotte a{overflow: hidden; display: block; width: 35px; height: 35px; text-indent: 999px; }
+
+#footerArea .sns_lotte .sns1 a{background: url(../images/sns_001.png);}
+#footerArea .sns_lotte .sns2 a{background: url(../images/sns_002.png);} 
+#footerArea .sns_lotte .sns3 a{background: url(../images/sns_003.png);}  
+#footerArea .sns_lotte .sns4 a{background: url(../images/sns_004.png);}  
+
+#footerArea .sns_lotte .sns1 a:hover{background: url(../images/sns_b_001.png);}
+#footerArea .sns_lotte .sns2 a:hover{background: url(../images/sns_b_002.png);}                         
+#footerArea .sns_lotte .sns3 a:hover{background: url(../images/sns_b_003.png);}
+#footerArea .sns_lotte .sns4 a:hover{background: url(../images/sns_b_004.png);}

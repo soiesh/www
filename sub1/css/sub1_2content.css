@@ -1,0 +1,30 @@
+/* content 영역 */
+#content .content_area>div{position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s}
+#content .content_area>div.boxMove{right:0; opacity: 1 }
+
+#content .content_area .phil_txt{width: 1200px; margin: 0 auto; font-size: 1.125em; line-height: 1.5em; text-align: justify; margin-bottom: 10px;}
+
+/* 아이콘4개 */
+#content .content_area .phil_icon{margin: 130px auto 100px auto;}
+#content .content_area .phil_icon ul{overflow: hidden; width: 1200px;}
+#content .content_area .phil_icon li{position: relative; float: left; width: 381px; margin: 150px 109.5px; }
+
+#content .content_area .phil_icon ul li img{position: absolute; left: 48px; top: -144px; z-index: 5; }
+.phil_icon img:hover{transform: scale(1.02); opacity: .93;}
+
+#content .content_area .phil_icon dl{width: 381px; height: 350px; background-color: #fafcf5; position: relative;
+    font-family: 'Nanum Gothic', sans-serif;font-weight: 400; box-shadow: 3px 2px 5px 3px #999;}
+#content .content_area .phil_icon dt{position: absolute; left: 126px; top: 170px; font-weight: bold; font-size: 1.5em; color:#267d00;}
+#content .content_area .phil_icon dd{position: absolute; left: 0px; top: 210px; font-size: 1.125em; padding: 5px 20px;  text-align:justify;}
+
+/* 비전 VISION 영역 */
+
+.content_area .h3_div{position: relative; margin-bottom: 100px;}
+.content_area .h3_div h3{font-size: 3em; text-align: center; margin-bottom: 176px;}
+.content_area .h3_div img{position: absolute; left: 600px; top: 129.11px; margin-left: -13px;}
+.content_area .h3_div p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 1.5em;
+     text-align: center; color:#d00024; margin-top: 74px;}
+
+#content .content_area .v_txt{font-size: 1.125em; line-height: 1.5em; text-align: justify; margin-bottom: 100px;}
+#content .content_area .v_img{width: 876px; height: 832px; margin-left: 162px; margin-bottom: 150px;
+    background: url(../images/content2/v_img.png) no-repeat center; text-indent: -9999px;}

@@ -1,0 +1,14 @@
+
+#content .content_area #map1{width:1200px; height: 600px; margin-bottom: 30px; border: solid 1px #999;}
+#content .content_area #map2{width:1200px; height: 600px; margin-bottom: 30px; border: solid 1px #999;}
+
+#content .content_area .hq_address table, .fty_address table  {width: 1000px; font-size: 1.25em; font-weight: bold; margin-left: 100px; margin-bottom: 100px;text-align: center;}
+#content .content_area .hq_address td, .fty_address td {padding: 30px; border-collapse: collapse; border-bottom: dotted 1px #999;}
+#content .content_area table .icon {font-size: 1.5em; color: #666;}
+#content .content_area .hq_address{ margin-bottom: 150px; }
+#content .content_area .fty_address{ margin-bottom: 180px; }
+
+#content .content_area .parking {margin-bottom: 150px; text-align: center;  border-collapse: collapse;}
+#content .content_area .parking h3{font-size: 2em; text-align: center;}
+#content .content_area .parking table{width: 1000px; margin: 50px 0 20px 100px;;}
+#content .content_area .parking th, .parking td {padding: 30px; border: dotted 1px #999;}

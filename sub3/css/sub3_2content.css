@@ -1,0 +1,27 @@
+/* sub 3_2 content 영역 */
+
+.content_area .h3_div{position: relative; margin-bottom: 50px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center;}
+.content_area .h3_div h3{font-size: 3em;  margin-bottom: 176px; font-weight:400;}
+.content_area .h3_div img{position: absolute; left: 600px; top: 129.11px; margin-left: -13px;}
+.content_area .h3_div p{ font-size: 1.5em; color:#54585a; line-height: 1.5em; margin-top: 74px;}
+
+.content_area .content01 {margin-bottom: 200px;}
+.content_area .content01 p {font-size: 1.375em; line-height: 1.5em; margin-bottom: 50px;}
+.content_area .content01 dl {background: url(../images/content2/content_img01.png) no-repeat center; width: 1200px; height: 436px; text-indent: -999px;}
+
+
+/* 테이블 content02 */
+.content_area .content02 table {margin: 50px 0 150px 0; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center;   }
+.content_area .content02 thead th {font-size: 1.25em; text-align: center; border: dotted 1px #ccc; background-color: #fcffe0}
+.content_area .content02 thead .top {width: 160px; height: 70px;}
+
+.content_area .content02 tbody th, td {border: dotted 1px #ccc; border-collapse: collapse; padding: 20px; word-break: keep-all; 
+        font-size: 1.125em;line-height: 2em;}
+.content_area .content02 tbody th {font-size: 1.25em; }
+.content_area .content02 tbody .r3 {text-align: center; font-size: 1.25em; font-weight: bold;}
+.content_area .content02 tbody .bg {font-size: 2em; background-color: #fcffe0}
+
+.content_area .content02 tbody td dl {text-align: left; line-height: 1.5em;}
+.content_area .content02 tbody td dt {font-weight: bold;}
+.content_area .content02 tbody td dd {margin-bottom: 15px;}
+

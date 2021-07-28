@@ -1,0 +1,131 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데기공:회사소개</title>
+
+    <script src="https://kit.fontawesome.com/f5208ed402.js" crossorigin="anonymous"></script>  <!-- 폰트어썸 -->
+    <script src="../common/js/prefixfree.min.js"></script> 
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/sub1_3content.css">
+
+ <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+   
+    <div class="wrap">
+       
+       <!-- header 헤더 영역 -->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual"><img src="common/images/visual_bg3.jpg" alt="서브메뉴 배경화면"></div>    
+
+        <div class="sub_menu">
+            <h3>회사소개</h3>
+            <ul>
+                <li><a href="./sub1_1.html">기업개요</a> </li>
+                <li><a href="./sub1_2.html">경영철학</a> </li>
+                <li class="current"><a href="./sub1_3.html">사업장소개</a> </li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <img src="common/images/line_map_logo.png" alt="로고"> HOME &gt; 회사소개 &gt; <strong>사업장소개</strong>                         
+                </div>
+
+                <h2>사업장소개</h2>
+                
+            </div>
+
+            <div class="content_area">
+                 
+                <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f3b46428e334d09866878487ed1c7611"></script>
+                <script src="js/map2_kakao.js"></script>
+
+                <div id="map1" ></div>    
+               
+                <div class="hq_address">
+                    
+                    <table>
+                        <tr>
+                            <td class="icon"><i class="fas fa-map-marker-alt"></i></td>
+                            <td>본사: 서울 동작구 보라매로 5길 51, 롯데관악타워 9층</td>                            
+                        </tr>
+                        <tr>
+                            <td class="icon"><i class="fas fa-phone-alt"></i></td>
+                            <td>TEL : 02-760-6561/6563</td>
+                        </tr>
+                    </table>                    
+                </div>
+
+                <div id="map2" ></div> 
+                <div class="fty_address">
+                    <table>
+                        <tr>
+                            <td class="icon"><i class="fas fa-map-marker-alt"></i></td>
+                            <td>인천공장 : 인천시 남구 염전로 333번길 8</td>
+                        </tr>
+                        <tr>
+                            <td class="icon"><i class="fas fa-phone-alt"></i></td>
+                            <td>TEL : 032-870-7100</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="parking">
+                    <h3>주차안내</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">차종</th>
+                                <th scope="col">기본(2시간)</th>
+                                <th scope="col">2시간 초과 10분당</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">대형</th>
+                                <td >5,000원</td>
+                                <td>1,000원</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">중형/소형</th>
+                                <td >3,000원</td>
+                                <td>500원</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">경차</th>
+                                <td colspan="2">정산금액의 50% 할인</td>                                
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>주말, 휴일의 경우 오후 12시 30분 이후에는 주차가 어렵습니다. (만차 후 인근 주차장으로 안내합니다.)</p>
+                </div>
+
+            </div>
+        </article>
+
+        <!-- footer 푸터 영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+       <!-- jquery -->
+       <script src="../common/js/jquery-1.12.4.min.js"></script>
+       <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+       <script src="../common/js/fullnav.js"></script>
+</body>
+</html>

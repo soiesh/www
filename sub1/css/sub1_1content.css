@@ -1,0 +1,28 @@
+/* sub1_1 기업소개 내용 영역 */
+
+
+/* 인사말 영역  */
+#content .content_area{}
+#content .content_area>div{position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s}
+#content .content_area>div.boxMove{right:0; opacity: 1 }
+
+#content .content_area .introduce{width: 1200px; margin: 0 auto; overflow: hidden;}
+#content .content_area .introduce img{margin-bottom: 100px; }
+#content .content_area .introduce_txt{font-size: 1.125em; line-height: 1.5em; text-align: justify; margin-bottom: 80px;}
+#content .content_area .introduce_sign{padding-bottom: 200px; float:right;}
+
+.content_area .h3_div{position: relative; margin-bottom: 100px;}
+.content_area .h3_div h3{font-size: 3em; text-align: center; margin-bottom: 176px;}
+.content_area .h3_div img{position: absolute; left: 600px; top: 129.11px; margin-left: -13px;}
+.content_area .h3_div p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 1.5em;
+     text-align: center; color:#d00024; margin-top: 74px; margin-bottom: 100px;}
+
+
+/* 연혁 영역 */
+#content .content_area .hist{width: 1200px; margin: 0 auto;}
+.content_area .hist dl {line-height: 1.8em; padding-left: 415px; margin-bottom: 100px;}
+.content_area .hist dt{font-weight: bold; color: #062045; font-size: 2em; margin-bottom: 10px;}
+
+.content_area .hist .hist_2010 {background: url(../images/content1/hist_01.png) no-repeat ; }
+.content_area .hist .hist_2000 {background: url(../images/content1/hist_02.png) no-repeat ; }
+.content_area .hist .hist_1990 {background: url(../images/content1/hist_03.png) no-repeat ; }

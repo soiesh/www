@@ -1,0 +1,15 @@
+/* SUB2_5 본문 영역 */
+
+#content .content_area .hist{margin: 0 0 120px 0px; text-align: center;}
+#content .content_area .hist dt{font-weight: bold; font-size: 1.5em; margin-bottom: 10px; position: relative;}
+#content .content_area .hist dt::before{content: ''; display: block; width: 7px; height: 7px; background-color: #d00024; border-radius: 70px;
+    -moz-border-radius: 70px; -webkit-border-radius: 70px;  margin-left: 530px; position: absolute; top: 10px;}
+    #content .content_area .hist dd{margin-bottom: 40px; line-height: 2.4em;}
+
+#content .content_area .title_info{text-align: center; margin-bottom: 120px; position: relative; overflow: hidden; font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+#content .content_area .title_info img{}
+#content .content_area .title_info dl{width: 1000px; height: 442px; position: absolute; left: 100px; top: 410px; color: #fff; 
+        background: rgba(0,0,0,.3); transition: all .6s ease;}
+#content .content_area .title_info:hover dl{top: 120px; background: rgba(0,0,0,.4);}
+#content .content_area .title_info dt{font-size: 1.5em; font-weight: bold;}
+#content .content_area .title_info dd{font-size: 1.25em; line-height: 1.5em;}

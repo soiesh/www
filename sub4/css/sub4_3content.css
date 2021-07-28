@@ -1,0 +1,26 @@
+/* SUB4_3 본문 영역 */
+#content .content_area .content01 h3, .content02 h3, .content03 h3 {font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center; 
+    margin-bottom: 150px; font-size: 3em;}
+
+.content01 {overflow: hidden; margin-bottom: 150px;}
+.content01 dl {font-size: 1.25em; line-height: 1.5em; position: relative; width: 590px; float: right;}
+.content01 dt {font-size: 1.375em; font-weight: bold; margin: 50px 0 15px 0;}
+.content01 .semi_title {font-size: 1.313em; margin: 20px 40px; }
+.content01 .semi_title::before {background: url(../images/content3/content_point_wheel.png) bottom; content: ''; display: block; width: 35px; height: 35px;
+        position: absolute; left: 0px; }
+
+.content01 img {float: left; width: 500px; margin: 80px 10px}
+.content01 img:hover {transform: scale(1.01); opacity: .7;}
+.content01 img:nth-last-child(1) {border: solid 1px #999;}
+
+/* IR 사용 영역 */
+.content02 dl {background: url(../images/content3/content_img02.png) no-repeat center; width: 1200px; height: 1200px;text-indent: -9999px; margin-bottom: 100px;}
+
+/* 테이블 영역 */
+#content .content_area .content02 {margin-bottom: 150px;}
+
+.content02 .tab_02 table {width: 800px; font-size: 1.25em; margin-left: 200px;}
+.content02 .tab_02 .tab_title {font-weight: bold; text-align: center; font-size: 1.25em; padding-bottom: 30px;}
+.content02 thead th, tbody th, td {border: dotted 1px #ccc; padding: 20px 40px;}
+.content02 table thead, tbody th {background-color: #fff9f9;}
+

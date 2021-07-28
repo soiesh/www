@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>LOTTE E&M: Contact Us</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="css/sub1_3.css">
+        
+    <script src="https://kit.fontawesome.com/f5208ed402.js" crossorigin="anonymous"></script>  <!-- 폰트어썸 -->
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f3b46428e334d09866878487ed1c7611"></script>
+    <script src="./js/map2_kakao.js"></script>
+
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+    <div class="wrap">
+       
+        <!-- header 헤더 영역 -->
+         <? include "../common/sub_head.html" ?>
+ 
+         <div class="visual">
+             <h2>Contact Us</h2>
+         </div>    
+      
+ 
+        <article id="content">
+          
+                <div class="content_area">
+                  
+                 
+                 <div id="map1" ></div>    <!--카카오 지도-->
+                
+                 <div class="hq_address">                     
+                     <table>
+                         <tr>
+                             <td class="icon"><i class="fas fa-map-marker-alt"></i></td>
+                             <td>headquarter : 9th Floor, Lotte Tower, 51 Boramae-ro 5-gil, Dongjak-gu, Seoul 07071</td>                            
+                         </tr>
+                         <tr>
+                             <td class="icon"><i class="fas fa-phone-alt"></i></td>
+                             <td>TEL : 02-760-6561/6563</td>
+                         </tr>
+                     </table>                    
+                 </div>
+ 
+                 <div id="map2" ></div> <!--카카오 지도-->
+                 <div class="fty_address">
+                     <table>
+                         <tr>
+                             <td class="icon"><i class="fas fa-map-marker-alt"></i></td>
+                             <td>incheon factory : Yeumjun-ro 333-gil 8 , Dong, Nam Gu, Inchoen, Korea</td>
+                         </tr>
+                         <tr>
+                             <td class="icon"><i class="fas fa-phone-alt"></i></td>
+                             <td>TEL : 032-870-7100</td>
+                         </tr>
+                     </table>
+                 </div>
+ 
+                 <div class="parking">
+                     <h3>Parking</h3>
+                     <table>
+                         <thead>
+                             <tr>
+                                 <th scope="col">Vehicle classification</th>
+                                 <th scope="col">Standard (2hrs)</th>
+                                 <th scope="col">per 10min (after first 2hrs)</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <th scope="row">Large-size</th>
+                                 <td >KRW 5,000</td>
+                                 <td>KRW 1,000</td>
+                             </tr>
+                             <tr>
+                                 <th scope="row">Compact</th>
+                                 <td >KRW 3,000</td>
+                                 <td>KRW 500</td>
+                             </tr>
+                             <tr>
+                                 <th scope="row">Small</th>
+                                 <td colspan="2">50% discount of the total fee</td>                                
+                             </tr>
+                         </tbody>
+                     </table>
+                     <!-- <p>주말, 휴일의 경우 오후 12시 30분 이후에는 주차가 어렵습니다. (만차 후 인근 주차장으로 안내합니다.)</p> -->
+                 </div>
+ 
+                </div>
+        </article>
+ 
+         <!-- footer 푸터 영역 -->
+         <? include "../common/sub_foot.html" ?>
+    </div>
+   
+
+    <!-- jquery -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script> 
+    <script src="../js/prefixfree.min.js"></script> 
+
+    <script src="../js/menu_ham.js"></script>
+    <script src="../js/combine.js"></script>
+    
+ 
+</body>
+</html>

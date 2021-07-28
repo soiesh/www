@@ -1,0 +1,23 @@
+body {background-color: whitesmoke; }
+.logo {margin: 50px auto; text-align: center; clear: both;}
+.logo img {width: 150px; vertical-align: top;}
+
+.content03 {overflow: hidden; width: 700px; height: 230px; margin: 0px auto; padding-top: 30px; background-color: #fff;}
+.content01 {float: left; margin-left: 80px; margin-top: 20px; width: 220px;}
+.content02 {float: right; margin-right: 80px; margin-top: 15px; width: 220px;}
+
+.content01 img:last-of-type {width: 220px; margin-top: 20px;}
+
+#id_pw_input li {margin: 10px auto; list-style: none;}
+#id_pw_input li input {width: 220px; height: 26px;}
+
+#login_button button,  #join_button button, .find_button li { font-weight: bold; width: 228px; height: 30px; margin: 4px 0; border: none; border-radius: 10px;}
+#login_button button:hover,  #join_button button:hover, .find_button li:nth-child(2):hover, .find_button li:nth-child(3):hover {opacity: .8; transform: scale(.99);}
+
+#login_button button, .find_button li:nth-child(2)  {background-color: #d00024;}
+#join_button button, .find_button li:nth-child(3) {background-color: darkblue;}
+#login_button button, #join_button button a {text-decoration: none; color: #fff;}
+
+.find_button {text-align: center; margin: 50px auto; font-family: arial; width: 230px;}
+.find_button ul li { margin-top: 10px;}
+.find_button ul li span a {display: block; width: 228px; color: #fff; padding-top: 5px;}

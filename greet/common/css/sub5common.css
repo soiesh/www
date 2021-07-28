@@ -1,0 +1,38 @@
+/* sub5 공통 영역 */
+
+/* 공통 비주얼 영역 */
+.visual{margin-top: 190px; width: 2000px; position: relative; left: 50%; margin-left: -1000px;
+    margin-bottom: 60px;}
+
+/* 비주얼 위에 서브메뉴  */
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+.sub_menu h3{position: absolute; left: 50%; bottom: 220px; margin-left: -75.2px; color: #fff; font-size: 2.5em; font-weight: 400;}
+.sub_menu ul{width: 850px; height: 72px; overflow: hidden; position: absolute; left: 50%; bottom: 60px; margin-left: -425px; 
+         border-radius: 15px 15px 0 0; border-bottom: solid 1px #ccc;}
+.sub_menu ul li{width: 212.5px; height: 73px; text-align: center; float: left; position: relative; transition: all .3s; background-color: #fff;}
+
+.sub_menu ul li a{display: block; height: 73px; padding-top: 24px; font-size: 1.063em;} 
+.sub_menu ul li a:hover{letter-spacing: -1px; font-weight: bold; color: #fff;background-color: #d00024;}
+.sub_menu ul .current a{letter-spacing: -1px; font-weight: bold; color: #fff;background-color: #d00024;}
+
+.sub_menu ul li:nth-of-type(1)::after{content: ''; display: block; width: 1px; height: 72px; background-color: #ccc; 
+        position: absolute; top: 0; right: 0;}
+.sub_menu ul li:nth-of-type(2)::after{content: ''; display: block; width: 1px; height: 72px; background-color: #ccc; 
+        position: absolute; top: 0; right: 0;}
+.sub_menu ul li:nth-of-type(3)::after{content: ''; display: block; width: 1px; height: 72px; background-color: #ccc; 
+        position: absolute; top: 0; right: 0;}
+
+
+/* article id=content 영역 */
+#content{width: 1200px; margin: 0 auto;}
+
+/* 타이틀 영역 */
+#content .title_area{background-color: rgba(238, 236, 236, .5); margin-bottom: 120px;}
+
+#content .title_area .line_map{text-align: right; font-size: .938em; margin-bottom: 130px;}
+#content .title_area .line_map img{margin: 0 4px 4px 0;}
+
+#content .title_area .h2_div02 { font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center; padding-bottom: 50px; margin-bottom: 100px;}
+#content .title_area h2{font-size: 3.625em;  font-weight: 400; padding-bottom: 40px;}
+#content .title_area i {font-size: 3.125em; padding-bottom: 40px;}
+#content .title_area p {font-size: 1.563em; }  /*25픽셀 */

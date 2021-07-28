@@ -1,0 +1,19 @@
+/* sub4-2 본문 영역 */
+
+.visual {width: 100%; height: 160px; background: url(../images/sub1_main4.jpg) center no-repeat; background-size: cover;}
+
+.h3_div {margin: 50px 0px ; text-align: center; font-size: 1.25em;}
+.h3_div h3 {color: #062045; font-weight: bold;}
+.h3_div img {padding: 15px 0;}
+
+.content01 {text-align: left; line-height: 1.5em; font-size: 1.25em; margin-bottom: 50px;}
+.content01 li {margin: 30px 5%; width: 90%;}
+.content01 span { color: #062045; font-weight: bold;}
+
+.photo {background: url(../images/sub1_img02.jpg) no-repeat center; width: 100%; height: 400px; margin-top: 30px;
+     background-size: cover; background-attachment: fixed;}
+
+/* youtube video */
+.cf {position: relative; padding-bottom: 56.25%; padding-top: 50px; height: 0; overflow: hidden;}
+.cf iframe, .cf object, .cf embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+

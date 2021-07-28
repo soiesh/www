@@ -1,0 +1,13 @@
+/* sub 5_1 영역 */
+.content_area h3 {font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center; margin-bottom: 100px; font-size: 3em;}
+
+.content_area {font-family: 'Noto Sans KR', sans-serif;}
+.content01 {font-size: 1.375em;line-height: 2em; margin-bottom:120px;}
+
+.content02 .content02_img01, .content02_img02 {margin: 80px auto; width: 1000px;}
+.content02_img01 li, .content02_img02 li {width: 1000px; padding: 54px 0 30px; border-bottom: 1px solid #ddd; position: relative;}
+.content02_img01 li span, .content02_img02 li span {line-height: 2em;}
+
+
+/* .content02 .content02_img02 {background: url(../images/content1/as_parking02.png) center no-repeat; text-indent: -999px; 
+            width: 1200px; height: 704px; margin-bottom: 140px;} */

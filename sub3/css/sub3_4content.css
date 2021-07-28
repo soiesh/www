@@ -1,0 +1,32 @@
+/* sub 3_4 영역 */
+.content_area .h3_div{position: relative; margin-bottom: 50px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center;}
+.content_area .h3_div h3{font-size: 3em;  margin-bottom: 176px; font-weight:400;}
+.content_area .h3_div img{position: absolute; left: 600px; top: 129.11px; margin-left: -13px;}
+.content_area .h3_div p{ font-size: 1.5em; color:#54585a; line-height: 1.5em; margin-top: 74px;}
+
+
+.content_area .content01 {font-family: 'Noto Sans KR', sans-serif; font-weight: 400; line-height: 1.5em; font-size: 1.25em; 
+    word-break: keep-all; overflow: hidden; margin: 100px 0 150px 0;}
+.content01 .content01_no1, .content01_no2 {margin-bottom: 80px; }
+.content01 .content01_no1 h4, .content01_no2 h4{float: left; height: 90px; margin-right: 60px; font-size: 1.375em;}
+
+.content01 .content01_no1 table {margin: 50px 5% 120px 5%; text-align: center; width: 90%;}
+.content01 .content01_no1 caption {font-size: 1.25em; font-weight: bold; padding-bottom: 20px; }
+.content01 .content01_no1 th, td {border: dotted 1px #ccc; padding: 20px 40px;}
+.content01 .content01_no1 thead, tbody th {background-color: #fcffe0;}
+
+.content_area .content01 ol {list-style:lower-roman; margin-left: 180px; line-height: 2em;}
+.content_area .content01 ol li {margin-bottom: 20px;}
+.content_area .content01 ol li strong {color: #54585a;}
+
+.content_area .content02 {margin-bottom: 170px;}
+.content_area .content02 p {font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; font-weight: 700; padding-bottom: 20px; display: block;}
+.content_area .content02 .content02_no1 {background: url(../images/content4/content01_img01.png) no-repeat center; height: 555px; 
+        text-indent: -999px; box-shadow: 2px 2px 3px 1px rgba(0,0,0,.4); margin-bottom: 100px;}
+.content_area .content02 .content02_no2 {background: url(../images/content4/content01_img02.png) no-repeat center; height: 555px; 
+        text-indent: -999px; box-shadow: 2px 2px 3px 1px rgba(0,0,0,.4);}
+
+.embed-area {text-align: center; margin-bottom: 100px;}
+.videoBox{width:1000px; border: 1px solid #CCC; margin: 0 0 130px 100px; overflow: hidden}
+    .videoBox .video{width:800px; float: left}
+    .videoBox ul{margin:50px 0 0 850px}

@@ -1,0 +1,272 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데기공</title>
+
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico" >
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+
+    <script src="common/js/prefixfree.min.js"></script>
+    <script src="mainjs/mainpopup.js"></script>  
+    <script src="https://kit.fontawesome.com/f5208ed402.js" crossorigin="anonymous"></script>
+    
+    <!--[if IE 9]>  
+          <scrip src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></scrip>
+        <![endif]-->
+</head>
+<body>
+ 
+    <div class="wrap">   
+
+      <!-- 상단 헤더 영역 -->
+      <? include "./common/main_head.html" ?>
+           
+                <div class="main">
+                    <div class="gallery">
+                        <ul>
+                            <li ><a href="#"><img src="images/main_img1.jpg" alt='' /></a></li>
+                            <li ><a href="#"><img src="images/main_img2.jpg" alt='' /></a></li>
+                            <li ><a href="#"><img src="images/main_img3.jpg" alt='' /></a></li>
+                            <li ><a href="#"><img src="images/main_img4.jpg" alt='' /></a></li>                            
+                        </ul>
+                                            
+                    </div>             
+                           
+                    <div class="gallery_text">
+                        <ul>
+                            <li>환경을 아름답게, 생활을 풍요롭게</li>
+                            <li>선도적 생활환경기업</li>
+                            <li>Top-Living-Solution Provider</li>
+                            <li>아름다운 생활환경, 풍요로운 삶의 공간</li>
+                        </ul>
+                    </div>
+                                        
+                   <div class="dock">
+                         <span class="mbutton  btn1" ></span>
+                         <span class="mbutton  btn2" ></span>
+                         <span class="mbutton  btn3" ></span>
+                         <span class="mbutton  btn4" ></span>                         
+                         <span class="ps" ></span>
+                   </div>
+
+                </div>
+
+            <article id="content"> 
+                <h2 class="hidden">main contents</h2>
+
+                <section class="product">
+                    <h3>PRODUCT</h3>
+                    <p>생활을 더욱 편안하게하는 롯데기공의 제품</p>   
+                                       
+                    <div id="slide_gallery_box">
+                        <div class="slide_gallery">
+                               <ul>
+                                 <li><a href="sub4/sub4_4.html"><img src="images/img_boiler.jpg" alt="보일러" /> <span>F130BO</span></a></li>
+                                 <li><a href="sub4/sub4_4.html"><img src="images/img_boiler2.jpg" alt="보일러2" /> <span>HGB-F166CO</span></a></li>
+                                 <li><a href="sub4/sub4_1.html"><img src="images/img_freezer.jpg" alt="글래스도어냉장고"/> <span>R49G</span></a></li>
+                                 <li><a href="sub4/sub4_1.html"><img src="images/img_freezer2.jpg" alt="글래스도어냉장고2"/> <span>LSR-RH2000B</span></a></li>
+                                 <li><a href="sub4/sub4_1.html"><img src="images/img_refrige.jpg" alt="냉장고"> <span>R49</span></a></li>
+                               </ul>                            
+                        </div>                     
+                                                                 
+                    </div>
+                    <a class="button m1" href="#m1"> <i class="fas fa-chevron-left m1"></i></a> <!--왼쪽버튼-->                                    
+                    <a class="button m2" href="#m2"> <i class="fas fa-chevron-right m2"></i></a>  <!--오른쪽버튼-->    
+                </section>
+
+                <section class="business">
+                    <h3>BUSINESS AREA</h3>
+                    <p>롯데기공의 나날이 발전하는 사업영역</p>
+
+                    <div class="business_tot">
+                        <div class="business_row01">
+                            <ul>
+                                <li>
+                                    <a href="./sub2/sub2_1.html"><img src="images/ba-refrigerator.png" alt="냉기부문"></a>                                     
+                                    
+                                    <dl>
+                                        <dt>냉기부문</dt>
+                                        <dd>롯데기공의 기술이<br>여러분에게 시원함을 더해드립니다</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                     <a href="./sub2/sub2_3.html"><img src="images/ba-parking.png" alt="주차부문"></a>
+                                    <dl>
+                                        <dt>주차부문</dt>
+                                        <dd>영국 BBC방송과 기네스북을 통하여<br>주차설비의 우수성이 입증된 롯데기공 주차시스템</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <a href="./sub2/sub2_2.html"><img src="images/ba-air-conditioning.png" alt="공조/냉난방부문"></a>
+                                    <dl>
+                                        <dt>공조/냉난방부문</dt>
+                                        <dd>롯데기공의 기술은 공기조화에서 냉/난방까지<br>여러분의 생활 곳곳에서 만나실 수 있습니다</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="business_row02">
+                            <ul>
+                                <li>
+                                    <a href="./sub2/sub2_1.html"> <img src="images/ba-vending-machine.png" alt="자동판매기부문"></a>
+                                    <dl>
+                                        <dt>자동판매기부문</dt>
+                                        <dd>롯데기공의 저비용 & 고효율의<br>자동판매기를 만나실 수 있습니다</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <a href="./sub2/sub2_4.html"><img src="images/ba-solution.png" alt="Total Solution"></a>
+                                    <dl>
+                                        <dt>Total Solution</dt>
+                                        <dd>상권분석부터 컨설팅, 유지보수까지<br>상가운영을 위한 롯데기공의 솔루션</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <a href="./sub2/sub2_5.html"><img src="images/ba-heater.png" alt="열기부문"></a>
+                                    <dl>
+                                        <dt>열기부문</dt>
+                                        <dd>국내 최초로 국산 가스보일러 생산 및 판매<br>국내 최초로 KS 와 ISO 9001인증 획득</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <? include "./lib/func2.php"; ?>
+
+                <div class="con_mid">
+                    <section class="news">
+                        <h3><strong>N</strong>EWS</h3>
+
+                        <ul>
+                            <? latest_article("news", 5, 20, 1); ?>      
+                        </ul>
+
+                        <a class="more" href="./news/list.php">more</a>
+                    </section>
+
+                    <section class="faq">
+                        <h3><strong>F</strong>AQ</h3>
+        
+                        <dl>
+                            <dt><a href="./sub5/sub5_3.html">Q. 통신연동형 가스보일러란?</a></dt>
+                            <dd>A. 통신연동형 가스보일러는 각방제어 시스템...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="./sub5/sub5_3.html">Q. 물보충이 잦은 이유?</a></dt>
+                            <dd>A. 물보충 발생 원인: 정상적인 가스보일러 물보충 주기는...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="./sub5/sub5_3.html">Q. 난방이 되지 않아요?</a></dt>
+                            <dd>A. 1. 리모콘의 선택 스위치를 보세요. "온수전용"...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="./sub5/sub5_3.html">Q. 온수가 잘 나오지 않아요?</a></dt>
+                            <dd>A. 온수의 출탕량은 보일러의 용량과 관계가 많습니다...</dd>
+                        </dl>
+                        <a class="more" href="./sub5/sub5_3.html">more</a>
+                    </section>   
+                </div>
+
+                <section class="vision">  
+                    <h3>LOTTE E&M’s Core Values : 4C</h3>
+                    <p>선도적 생활환경기업이 되기 위한 롯데기공의 핵심가치</p>
+
+                    <ul>
+                        <li class="vision_bg1">
+                            <dl>
+                                <dt>공동발전</dt>
+                                <dd>Co-Growth<br>in Respect & Trust</dd>
+                                
+                            </dl> 
+                                                       
+                        </li>
+                        <li class="vision_bg2">
+                            <dl>
+                                <dt>고객헌신</dt>
+                                <dd>Customer-Oriented</dd>
+                            </dl>
+                           
+                        </li>
+                        <li class="vision_bg3">
+                            <dl>
+                                <dt>도전과 혁신</dt>
+                                <dd>Callenge<br>with Innovation</dd>
+                            </dl>
+                            
+                        </li>
+                        <li class="vision_bg4">
+                            <dl>
+                                <dt>사회적기여</dt>
+                                <dd>Commitment<br>to Social Values</dd>
+                            </dl>
+                           
+                        </li>
+                    </ul>
+                    <a class="vision_bttn" href="./sub1/sub1_2.html">보러가기</a>
+                </section>
+
+
+                <section class="recruit">
+                    <h3>Join The Team</h3>
+                    <p>인재의 가치를 소중히하는 롯데기공에서 당신의 꿈을 펼치십시오!</p>
+                    
+                    <div class="recruit_txt"> 
+                        <p>창의적이고 적극적, 화합과 융합, 근면, 성실, 롯데기공이 원하는 인재입니다<br><br>
+                            ‘TOP LIVING-SOLUTION PROVIDER’으로 거듭나기 위하여<br>
+                            롯데기공은 함께 꿈을 실현시켜 나갈 젊은이를 찾고있습니다</p>
+                        <a href="./sub3/sub3_4.html">온라인 지원</a>
+                    </div>                   
+                </section>
+            </article>
+
+
+          <!-- 푸터 footer 영역 -->
+          <? include "./common/main_foot.html" ?>
+        </div>
+  
+
+ <!-- 공지팝업 -->
+<div id="showimage" style="z-index:89;position:absolute;width:322px;left:60px;top:200px;">
+    <script>
+      function closeWin(){
+         var chk = document.getElementById('Notice')
+         if ( chk.checked ) {
+               setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+          }
+      }
+     if ( getCookie( "Notice" ) == "done" ) {
+         hidebox();
+     }
+   </script>
+      <div>
+            <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+      </div>
+       <div style="font-size:12px;text-align:center;color:#ffffff;">
+         <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+       <a style="color: #fff;"  href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+    </div>
+  </div>  
+    
+  <!-- jquery -->
+  <script src="common/js/jquery-1.12.4.min.js"></script>
+  <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="common/js/fullnav.js"></script>  
+  <script src="mainjs/move.js"></script> 
+  <script src="mainjs/NBSlide.js"></script>
+  
+</body>
+</html>
+

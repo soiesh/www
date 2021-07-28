@@ -1,0 +1,25 @@
+/* find ID 페이지 */
+
+#col2 {text-align: center; margin: 50px auto; padding-top: 20px; font-family:'Nanum Gothic', sans-serif; font-weight:400; background-color: #fff; width: 700px;}
+
+#login2 {padding-top: 20px; }
+#login2 .find_input {margin: 15px auto; height: 25px;}  #hp2, #hp3 {width: 130px;} 
+
+/* search ID & Log in 버튼 2개 */
+.find, .login_bttn {display: block; margin: 10px auto 0px auto; height: 30px; width: 173px; color: #fff; font-weight: bold; border-radius: 10px;} 
+#login2 .find:hover, .go .login_bttn:hover {opacity: .8; transform: scale(.99);} 
+
+.find { background-color: #d00024; border: #d00024 2px solid; font-size: 1em; }
+.login_bttn {color: #fff; width: 173px; display: block; background-color: darkblue; padding-top: 0px;}
+
+/* PW 버튼 */
+.go li:nth-child(2) {margin-top: 50px;}
+.go li:nth-child(2) a {display: block; color: #fff; font-weight: bold; width: 100px; height: 25px; margin-left: 300px; margin-top: 5px;
+        background-color: #d00024;border-radius: 10px;}
+     
+/* join 버튼 */
+#join_button {margin-top: 10px; padding-bottom: 30px;}
+#join_button a {display: block; color: #fff; font-weight: bold; width: 100px; height: 25px; margin-left: 300px; margin-top: 5px;
+        background-color:darkblue;border-radius: 10px;}
+
+        .go li:nth-child(2) a:hover, #join_button a:hover {opacity: .8; transform: scale(.99);} 

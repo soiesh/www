@@ -1,0 +1,23 @@
+/* SUB4_4 본문 영역 */
+#content .content_area .content01 h3, .content02 h3, .content03 h3 {font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center; 
+    margin-bottom: 150px; font-size: 3em;}
+
+.content01, .content02 {margin-bottom: 100px;}
+.content02 {background: url(../images/content4/content02_bg2.jpg) no-repeat bottom;}
+
+.content01 ul li, .content02 ul li {margin-bottom: 50px;}
+.content01 ul li ul, .content02 ul li ul {overflow: hidden; width: 1200px;}
+
+.content01 ul li ul li, .content02 ul li ul li  {float: right; width: 788px; height: 350px; font-family: 'Noto Sans KR', sans-serif; word-break: keep-all;
+    font-weight: 1.563em; line-height: 2em; padding-left: 60px; padding-top: 25px;}
+
+.content01 img, .content02 img {float: left; width: 350px; border: dashed 1px #ccc;}
+.content01 img:hover {transform: scale(1.02); opacity: .96;}
+.content02 img {}
+.content01 strong, .content02 strong {font-size: 1.75em;}
+
+.content03 {margin: 150px 0;}
+    .content03 table {width: 100%; font-size: 1.25em; margin: 0 0 70px 0px;}
+    .content03 .tab_title {font-weight: bold; text-align: center; font-size: 1.25em; padding-bottom: 30px;}
+    .content03 th, td {border: dotted 1px #ccc; padding: 20px 40px;}
+    .content03 table tbody th {background-color: #fafafa; width: 336px;}

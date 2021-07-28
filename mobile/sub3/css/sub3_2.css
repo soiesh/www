@@ -1,0 +1,18 @@
+/* sub3-2 A/C 본문 영역 */
+
+.visual {width: 100%; height: 160px; background: url(../images/sub1_main2.jpg) center no-repeat; background-size: cover;}
+
+.h3_div {margin: 50px 0px ; text-align: center; font-size: 1.25em;}
+.h3_div h3 {color: #062045; font-weight: bold;}
+.h3_div img {padding: 15px 0;}
+
+.content_tab01 {text-align: center; }
+.content_tab01 p {font-size: 1.25em; font-weight: bold; margin-bottom: 30px;}
+.content_tab01 table {width: 96%; margin: 0 2%;}
+.content_tab01 table th, td {border: dotted 1px #ccc; padding: 20px 10px; font-size: 1.125em; border-collapse: collapse; }
+.content_tab01 table th, tbody th {background-color: #fff9f9; }
+
+ .content02_dl {text-align: center;  line-height: 1.5em;}
+ .content02_dl dt{font-weight: bold; color:#062045; font-size: 1.3em; margin-bottom: 15px;}
+ .content02_dl dd{margin-bottom: 40px; font-size: 1.25em;}
+ .content02_dl img {width: 100%; margin: 20px 0;}

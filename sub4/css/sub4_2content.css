@@ -1,0 +1,48 @@
+/* SUB4_2 본문 영역 */
+#content .content_area .content01 h3, .content02 h3, .content03 h3 {font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center; 
+    margin-bottom: 150px; font-size: 3em;}
+
+#content .content_area {font-family: 'Noto Sans KR', sans-serif;}
+
+
+/* dl 문단 속성 */
+.content_area dl {font-size: 1.125em; line-height: 1.5em; margin-bottom: 50px; text-align: center;}
+.content_area dl dt {font-weight: bold; font-size: 1.25em; padding-bottom: 20px;}
+.content_area dl strong {font-weight: 700;}
+.content_area dl dd {padding-bottom: 5px; margin-bottom: 20px; }
+
+.content_area .content01_dl, .content01_dl2 {margin-top: 100px;}
+.content_area .content01_dl strong {text-indent: 30px; display: block; ;}
+
+.content_area .content02 {margin: 200px 0; background: url(../images/content2/content_bg.png) no-repeat bottom;}
+.content_area .content02 .content02_dl dt{padding: 20px 0;}
+.content_area .content02 .content02_dl dd{margin-bottom: 40px;}
+
+    
+/* 테이블 속성 */
+.content_area table th, td {border: dotted 1px #ccc; padding: 20px 40px; text-align: center; font-size: 1.125em;  }
+.content_area table th, tbody th {background-color: #fff9f9; }
+
+#content .content_area .content01 .content_tab01 {margin-left: 200px;} 
+.content_area .content_tab01 p {font-size: 1.25em; font-weight: bold; margin: 0 0 20px 340px; text-align: justify;}
+.content_tab02 {margin-left: 100px;}
+
+/* .content03 박스 속성 */
+.content_area .content03 {overflow: hidden; margin: 130px 0;}
+.content_area .content03 dl {float: left; width: 500px; text-align: center; margin: 60px 50px;}
+.content_area .content03 dt {font-weight: bold; font-size: 1.5em; color:#666; margin-bottom: 20px;}
+.content_area .content03 dd {padding: 40px 30px; height: 300px; line-height: 2em;}
+.content_area .content03 dl:nth-of-type(1) dd {background: rgba(255,0,51,.1); }
+.content_area .content03 dl:nth-of-type(2) dd {background: rgba(255,104,0,.1);}
+.content_area .content03 dl:nth-of-type(3) dd {background: rgba(251, 255, 1, 0.1);}
+.content_area .content03 dl:nth-of-type(4) dd {background: rgba(136, 255, 1, 0.1);}
+.content_area .content03 dl:nth-of-type(5) dd {background: rgba(1, 255, 179, 0.1);}
+.content_area .content03 dl:nth-of-type(6) dd {background: rgba(1, 103, 255, 0.1);}
+
+.content_area .content03 dt span {display: block; font-size: 5.625em; height: 150px; margin-bottom: 10px; }
+.content_area .content03 dl:nth-of-type(1) dt span {color:  rgb(255,0,51);}
+.content_area .content03 dl:nth-of-type(2) dt span {color:  rgb(255,104,0)}
+.content_area .content03 dl:nth-of-type(3) dt span {color:  rgb(255, 217, 0)}
+.content_area .content03 dl:nth-of-type(4) dt span {color:  rgb(177, 250, 117)}
+.content_area .content03 dl:nth-of-type(5) dt span {color:  rgb(0, 255, 221)}
+.content_area .content03 dl:nth-of-type(6) dt span {color:  rgb(81, 136, 255)}

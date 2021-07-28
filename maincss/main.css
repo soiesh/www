@@ -1,0 +1,154 @@
+
+/* visual 비주얼 영역 */
+/* .gallery{margin: 189px auto 0 auto; overflow: hidden; position: relative;}*/
+/* .gallery img{position: relative; width: 2000px; left:50%; margin-left: -1000px; height: 50%;} */
+
+.main{ position:relative;width:2000px; height:980px; left:50%; overflow: hidden; margin: 190px 0 100px -1000px;}  /*마진탑190 x*/
+.gallery{position:relative;left:0; top:0; overflow:hidden; width:8000px; height:800px;}
+.gallery ul li{list-style:none; float: left; }
+
+/* @keyframes imgAnimation{
+    from{
+        transform: scale(1);
+        opacity: .8
+    }
+    40%{
+        opacity: 1
+    }    
+    to{
+        transform: scale(1.1);
+        opacity: .8
+    }
+} */
+.visual img{
+    /* width: 100%;
+    animation-name: imgAnimation;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    opacity: .8; */
+    border:0; vertical-align:top;}
+
+.gallery_text{position: absolute; top: 600px; left: 300px; width: 1000px; text-align: center;}
+.gallery_text li{text-align: center; font-size: 50px; color: #fff; background: rgba(177, 176, 176, 0.3); padding: 20px 0; display: none}
+
+/* visual 버튼 박스 */
+.dock{width:500px; position:absolute; left:900px; top:750px;}
+.dock span.mbutton{ margin-right:15px; cursor:pointer; display:block;float:left;  width:16px; height:16px;         
+     background:#fff; border-radius:8px; transition: all .5s}
+.dock .ps{ margin-right:15px; margin-top: -5px; cursor:pointer;display:block; float:left; width:25px; height:25px;
+  background:url(../images/stop.png)}
+
+
+/* article id=content 영역 */
+#content{width: 1200px; margin: 0 auto; }  
+/* content 폰트 family */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+#content {font-family: 'Nanum Gothic', sans-serif; font-weight: 400; line-height: 1.5em} 
+
+/* 슬라이드 갤러리 */
+#content .product{position: relative;}
+#content .product h3{font-size: 3.125em; font-weight: bold; text-align: center; line-height: 1.5em;}
+#content .product p{font-size: 1.25em; font-weight: bold; text-align: center; color: #666;}
+
+#slide_gallery_box{width:1000px; height: 330px; margin: 50px 98px;padding-top:30px; position:relative; border:1px dashed #CCC; clear: both; overflow: hidden;}
+.slide_gallery {position:relative; left:0; top:0; width: 2000px; }
+
+.slide_gallery ul li {float:left; list-style:none; margin-top: 10px;}
+.slide_gallery ul li img {width: 200px;}
+.slide_gallery ul li span {display: block; text-align: center; font-size: 1.25em; padding-top: 15px;}
+
+/* 단추박스 */
+.product .m1{position: absolute;left: 20px; top: 140px; font-size: 2em;display: block;color: #999;}
+.product .m2{position: absolute; right: 20px; top: 140px; font-size: 2em;display: block;color: #999;}
+.product .m1:hover{color:#d00024;}
+.product .m2:hover{color:#d00024;}
+/* BUSINESS 사업부문 영역 */
+#content .business{ width: 1200px; margin-top: 200px;}
+#content .business h3{font-size: 3.125em; font-weight: bold; text-align: center; line-height: 1.5em;}
+#content .business p{font-size: 1.25em; font-weight: bold; text-align: center; color: #666; margin-bottom: 35px;}
+
+#content .business .business_tot {margin: 0 auto;}
+#content .business .business_row01, .business_row02
+#content .business .business_row01 ul, .business_row02 ul{overflow: hidden; margin-left: 50px;}
+#content .business .business_row01 li, .business_row02 li{float: left; position: relative; width: 365px; height: 360px;
+     border: solid 1px #ccc; text-align: center;}
+
+#content .business .business_row01 img, .business_row02 li img{padding-top: 30px; transition: all .5s;}
+#content .business .business_row01 img:hover, .business_row02 img:hover{transform: scale(1.2);}
+#content .business .business_row01 dl, .business_row02 dl{position: absolute; left: 15px; bottom: 30px;}
+#content .business .business_row01 dt, .business_row02 dt{font-weight: bold; font-size: 1.174em; text-align: left;}
+#content .business .business_row01 dd, .business_row02 dd{font-size: .9em; text-align: left; }
+
+
+/* con_mid 공지사항 & FAQ 영역 */
+#content .con_mid {width: 1200px; overflow: hidden; margin-top: 240px;}
+#content .con_mid .news{float: left; position: relative; width: 590px; height: 425px; border: solid 1px #ccc; margin: 0 10px 0 8px;
+     background-color:transparent; 
+     border-radius: 0 60px 0 60px; -webkit-border-radius:0 60px 0 60px;padding-bottom: 30px;}
+#content .news h3{font-size: 2.4em; font-weight: bold; margin: 46px 0 50px 47px;}
+
+#content .news strong, .faq strong{color: #d00024;}
+#content .news li {margin: 35px 48px 27px 30px;  overflow: hidden;}
+#content .news li a{font-size: 1.25em; font-weight: bold; display: block; margin-bottom: 5px;}
+#content .news li a:hover{color: #dc0330;}  
+#content .news li a span {color: #dc0330; float: right;}
+#content .news .more{display: block; overflow: hidden; width: 24px; height: 24px; position: absolute; right: 30px; top: 46px; 
+    background: url(../images/news_plus.png); text-indent: -999px; }
+#content .news .more:hover{transform: scale(1.3);}
+
+#content .con_mid .faq{float: right; position: relative; width: 574px; height: 425px; border: solid 1px #ccc; margin-right:8px;
+        background-color: transparent;
+        border-radius: 0 60px 0 60px; -webkit-border-radius:0 60px 0 60px;padding-bottom: 30px;}
+#content .faq h3{font-size: 2.4em; font-weight: bold; margin: 46px 0 50px 40px;}
+#content .faq dl{margin: 0 25px 20px 40px; }
+#content .faq dt{font-size: 1.25em; font-weight: bold; padding-bottom: 10px;}
+#content .faq dt a:hover{color: #dc0330; } 
+#content .faq dd{padding:0 30px 0 35px;}
+#content .faq .more{display: block; overflow: hidden; width: 24px; height: 24px; position: absolute; right: 30px; top: 46px; 
+    background: url(../images/news_plus.png) ; text-indent: -999px; }
+#content .faq .more:hover{transform: scale(1.5);}
+
+/* 비전 4c 영역 */
+#content .vision{width: 1200px; margin-top: 200px;position: relative; }
+#content .vision h3{font-size: 3.125em; font-weight: bold; text-align: center; line-height: 1.5em;}
+#content .vision p{font-size: 1.25em; font-weight: bold; text-align: center; color: #666; margin-bottom: 35px;}
+
+#content .vision ul {overflow: hidden; margin: 0 auto 110px auto;}
+#content .vision li {float: left; width: 240px; height: 240px; margin-left: 45px; border: solid 1px #ccc; 
+        box-shadow: 5px 15px 5px 3px rgba(0, 0, 0, .3) ;
+        -webkit-box-shadow: 5px 15px 5px 3px rgba(0, 0, 0, .3);}
+#content .vision li:hover{opacity: 0.8; transform: scale(.99); filter: grayscale(.3)} 
+#content .vision dl {text-align: center; padding-top: 60px; position: relative;}
+#content .vision dt { font-size: 1.7em; color: #062045; }
+#content .vision dd {font-weight: bold; font-size: 1.05em; color: #dc0330; padding-top: 40px;}
+   
+#content .vision_bg1 {background-image: url(../images/vision_bg1.jpg);}
+#content .vision_bg2 {background-image: url(../images/vision_bg2.jpg);}
+#content .vision_bg3 {background-image: url(../images/vision_bg3.jpg);}
+#content .vision_bg4 {background-image: url(../images/vision_bg4.jpg);}
+#content .vision .vision_bttn {
+    color: #fff;font-size: 1.563em;padding: 15px 0;background: #062045;
+    display: block;width: 200px;text-align: center;margin: 0 auto;transition: all .5s;border-radius: 15px;box-shadow: 1px 1px 5px 2px #ccc;}
+#content .vision .vision_bttn:hover {transform: scale(1.1); background: #d00024;}
+
+
+/* 온라인 지원 영역 */
+#content .recruit h3{font-size: 3.125em; font-weight: bold; text-align: center; line-height: 1.5em; color: #fff;}
+#content .recruit p{font-size: 1.25em; font-weight: bold; text-align: center; color: #ccc; }
+
+#content .recruit { margin: 150px auto;
+    background: rgba(0, 0, 0, .5) url(../images/recruit_bg1.jpg) no-repeat; height: 530px; width: 200%;
+    background-size: cover; background-attachment: fixed; position: relative; left: 50%; margin-left: -100%; }
+
+#content .recruit .recruit_txt{position: relative; margin-bottom: 170px;}
+#content .recruit .recruit_txt p{font-size: 1.25em; font-weight: bold; line-height: 1.6em; text-align: center; padding: 0 0 0 50px; 
+    margin-bottom: 70px; position: absolute; right: 850px; top: 120px;
+    transition: all 1.2s ease-out; color: #999;}
+#content .recruit .recruit_txt p:hover{opacity: .8; color:#666; transform: scale(1.01); transition: all 1.2s ease-out;}
+
+#content .recruit .recruit_txt a{color: #fff; font-size: 1.563em; font-weight: bold; 
+    padding: 15px 0px; width: 200px; margin: 0 auto; text-align: center; background: #d00024; position: absolute; left: 1100px; top: 300px;
+    border-radius: 15px;box-shadow: 1px 1px 5px 2px #ccc;}
+#content .recruit .recruit_txt a:hover{transform: scale(1.1); background: #062045;}

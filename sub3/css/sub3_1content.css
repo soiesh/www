@@ -1,0 +1,24 @@
+/* SUB3_1 본문 영역 */
+
+.content_area .h3_div{position: relative; margin-bottom: 50px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center;}
+.content_area .h3_div h3{font-size: 3em;  margin-bottom: 176px; font-weight: 400;}
+.content_area .h3_div img{position: absolute; left: 600px; top: 129.11px; margin-left: -13px;}
+.content_area .h3_div p{ font-size: 1.5em; color:#54585a; line-height: 1.5em; margin-top: 74px;}
+
+.content_area .content01 p{font-size: 1.375em; line-height: 1.5em; margin-bottom: 50px;}
+.content_area .content01 dl {background: url(../images/content1/content_img.png) no-repeat center; text-indent: -9999px; 
+    width: 1200px; height: 863px; margin-bottom: 150px;}
+
+.content_area .content02 ul {margin-bottom: 220px;}
+.content_area .content02 ul li {overflow: hidden; margin-bottom: 80px;}
+.content_area .content02 ul li img{width: 200px; height: 200px; float:left; }
+.content_area .content02 ul li p {width: 935px; float:right; line-height: 1.5em; font-size: 1.375em;}
+.content_area .content02 ul li span {font-weight: bold;}
+
+.content_area .content03 p {font-size: 1.375em; line-height: 1.5em; margin-bottom: 50px;}
+.content_area .content03 ol {background: url(../images/content1/content_img02.png) no-repeat center; text-indent: -999px;
+    width: 1200px; height: 860px; margin-bottom: 150px;}
+
+.content_area .content03 table {margin-bottom: 150px; margin-left: 98px; line-height: 1.5em; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; text-align: center;}
+.content03 table th, table td {border: dotted 1px #999; padding: 30px 60px;}
+.content03 thead, tbody tr th {background-color: #fafafa;}

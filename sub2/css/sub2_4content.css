@@ -1,0 +1,16 @@
+/* SUB2_4 Tot Sol 본문 영역  */
+
+#content .content_area dl{margin: 0 0 150px 0px; text-align: center;}
+#content .content_area dt{overflow: hidden; position: relative; font-weight: bold; font-size: 1.5em; margin-bottom: 10px; margin-top: 50px;}
+#content .content_area dt::before{content: ''; display: block; width: 7px; height: 7px; background-color: #d00024; border-radius: 70px;
+    -moz-border-radius: 70px; -webkit-border-radius: 70px;  margin-left: 530px; position: absolute; top: 10px;}
+#content .content_area dd{margin-bottom: 30px; line-height: 1.5em;}
+
+.content_area h3{text-align: center; font-size: 3em; margin-bottom: 30px; font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+#content .content_area .table_01 {text-align: center; margin-left: 195px; margin-bottom: 150px;}
+#content .content_area .table_02 {text-align: center; margin-left: 94px; margin-bottom: 150px;}
+
+#content .content_area .table_01 thead, .table_01 tfoot, .table_02 thead {background-color:rgb(227, 255, 203);}
+#content .content_area .table_01 th, .table_01 td, .table_02 th, .table_02 td { border: dotted 1px #ccc; width: 200px; height: 50px;}
+#content .content_area .table_01 tfoot {font-weight: bold;}
+

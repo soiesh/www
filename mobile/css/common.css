@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+table{border-collapse: collapse; width: 100%;}
+label { cursor:pointer; }
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/* GOOGLE 폰트 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; font-weight:400 700 800 중에*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Myeongjo', serif; font-weight:400 700 800 중에 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+/* 전체 공통 */
+#wrap{ width:100%; position:relative; overflow:hidden; font-family: 'Nanum Gothic', sans-serif; font-weight:400;}
+
+/* 헤더공통 */
+#headerArea .join{overflow: hidden;}
+#headerArea .join li {float: left; width: 50%;}
+
+#headerArea .header_top{overflow: hidden; height: 60px;}
+#headerArea h1 img{width: 110px; position: absolute; left: 50%; margin-left: -55px; padding-top: 15px;}
+
+#headerArea .menu_ham {
+    display: block;
+    float: right;
+    
+    font-size: 3.125em;
+    position: relative;
+    border-radius: 5px;
+}
+ #headerArea .menu_ham span {
+    width: 20px;
+    height: 4px;
+    background: #333;
+    position: relative;
+    text-indent: -9999px;
+    display: block;
+    margin: 26px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#headerArea .menu_ham span::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #333;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#headerArea .menu_ham span::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #333;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    border-radius: 5px;
+    transition: all .3s;
+} 
+
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_ham {
+    transition: all .3s;
+}
+#headerArea.mn_open .menu_ham span {
+    background: rgba(0,0,0,0);
+    transition: all .3s;
+}
+#headerArea.mn_open .menu_ham span::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: all .3s;
+}
+#headerArea.mn_open .menu_ham span::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: all .3s;
+} 
+
+/* navigation 영역*/
+#gnb{position: absolute; width: 100%;  right:-100%; top:60px; opacity: 0; background: #fff;z-index:20 }
+#gnb li{border-top:1px solid #ccc; text-align:center; font-weight:bold;}
+#gnb li a{display: block; padding: 15px 0; font-size: 20px;} 
+#gnb li ul{background: rgba(208,0,36,.1) ; display: none}
+#gnb li ul a{font-size: 18px; font-weight: normal;}
+#gnb .last{border-bottom:1px solid #ccc}
+
+
+/* 푸터 footer 공통영역 */
+#footerArea{width: 100%;font-size: 14px;   position: relative; background:#2e2e2e; }
+#footerArea #footer_inner{margin: 0 auto;}
+
+#footerArea .footer_menu{background: #484646; overflow: hidden;}
+#footerArea .footer_menu li{float: left;width: 33.33%; text-align: center;}
+#footerArea .footer_menu li a{color:white; display: block; padding: 15px 0;}
+
+#footerArea .footerBttm {color:white; text-align: center;}
+#footerArea .footerBttm img {margin: 30px 0;}
+#footerArea address{line-height: 1.5em; margin-bottom: 15px;}
+
+/* 관계사 사이트 바로가기  */
+.select{width:150px; height:22px; position:relative; margin:15px auto; margin-top: 10px; text-align: center;}
+.select .arrow{ display:block; font-size:1em; padding:3px 20px; color: #fff; border: solid 1px #ccc;}
+
+.select .aList{position:absolute; bottom:-35px; left:50%; margin-left: -75px; width:150px; display: none;}
+.select .aList li{ background-color:darkgray;}
+.select .aList li a{display:block;padding:3px 20px; color:#fff; }
+
+
+#footerArea .sns {overflow: hidden; margin: 0 20% 20px;}
+#footerArea .sns li{float: left; width: 25%;text-align: center;}
+#footerArea .sns li a img {width: 35px; height: 35px;}
+
+
+/* 상단이동 버튼 */
+.topMove{display:block; width: 40px; height: 40px; background: #062045; border-radius: 20px;
+    position: fixed; margin-left: 90%; bottom:415px; 
+    text-align: center; font-size: 2em; font-weight: bold;}
+.topMove i {color: #fff;}
+
+#content {
+    padding: 0 10px 50px;
+}
+
+/* 서브공통 */
+.visual{position: relative;}
+.visual h2{font-size: 26px;font-family: 'Nanum Gothic', sans-serif; position: absolute;
+  left:0; top:50%; margin-top: -20px;width: 100%; text-align: center; color:#fff; font-weight: 700; }
+

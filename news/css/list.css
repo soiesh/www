@@ -1,0 +1,27 @@
+/* SUB 5_4 공지사항의 게시판 CSS*/
+
+.content_area {text-align: center; width: 1000px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+
+.content_area form {overflow: hidden; width: 1000px; padding-bottom: 20px;}
+.content_area form div {float: left; margin-top: 5px;}
+.content_area form div:nth-of-type(1) {margin-right: 100px;}
+.content_area form div:nth-of-type(3) {margin-right: 10px; margin-left: 5px;}
+.content_area form div:nth-of-type(4) {margin-right: 10px;}
+#list_search3 select {width: 70px; height: 30px;}
+.content_area form #list_search4 input {width: 400px; height: 24px;}
+#list_search5 input {width: 60px; height: 30px;}
+
+.content_area #list_content { margin-bottom: 130px;}
+.content_area #list_content #list_item {border: 1px dotted #ccc; margin-bottom: 20px; overflow: hidden; width: 998px; height: 120px;}
+
+#list_item div {float: left; margin: 0 30px; padding-top: 10px;}
+
+.content_area #list_content #list_item #list_item1 {padding-top: 50px;}
+#list_item2 a {display: block; overflow: hidden; }
+#list_item2 a span img {float: left; width: 100px; height: 100px;}
+#list_item2 a span:nth-child(2) {display: block; width: 400px; float: left; margin: 30px 50px;}
+
+
+#page_button {overflow: hidden;}
+#page_button #page_num {float: left; margin-left: 450px;}
+#page_button #button {float: right;}

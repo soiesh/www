@@ -1,0 +1,51 @@
+/* sub3 공통 영역 */
+
+/* 공통 비주얼 영역 */
+.visual{margin-top: 190px; width: 2000px; position: relative; left: 50%; margin-left: -1000px;
+    margin-bottom: 60px;}
+
+/* 비주얼 위에 서브메뉴  */
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; font-family: 'Nanum Gothic', sans-serif;font-weight: 400;}
+.sub_menu h3{position: absolute; left: 50%; bottom: 220px; margin-left: -75.2px; color: #fff; font-size: 2.5em; font-weight: 400;}
+.sub_menu ul{width: 850px; height: 72px; overflow: hidden; position: absolute; left: 50%; bottom: 60px; margin-left: -425px; 
+         border-radius: 15px 15px 0 0; border-bottom: solid 1px #ccc;}
+.sub_menu ul li{width: 212.5px; height: 73px; text-align: center; float: left; position: relative; transition: all .3s; background-color: #fff;}
+
+.sub_menu ul li a{display: block; height: 73px; padding-top: 24px; font-size: 1.063em;} 
+.sub_menu ul li a:hover{letter-spacing: -1px; font-weight: bold; color: #fff;background-color: #d00024;}
+.sub_menu ul .current a{letter-spacing: -1px; font-weight: bold; color: #fff;background-color: #d00024;}
+
+.sub_menu ul li:nth-of-type(1)::after{content: ''; display: block; width: 1px; height: 72px; background-color: #ccc; 
+        position: absolute; top: 0; right: 0;}
+.sub_menu ul li:nth-of-type(2)::after{content: ''; display: block; width: 1px; height: 72px; background-color: #ccc; 
+        position: absolute; top: 0; right: 0;}
+.sub_menu ul li:nth-of-type(3)::after{content: ''; display: block; width: 1px; height: 72px; background-color: #ccc; 
+        position: absolute; top: 0; right: 0;}
+
+
+/* article id=content 영역 */
+#content{width: 1200px; margin: 0 auto;}
+
+/* 타이틀 영역 */
+
+#content .title_area .line_map{text-align: right; font-size: .938em; margin-bottom: 130px;}
+#content .title_area .line_map img{margin: 0 4px 4px 0;}
+
+#content .title_area h2{font-size: 3.625em; color: #333; padding: 0px 0 36px 0; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; 
+        text-align: center; margin-bottom: 100px;}
+
+#content .title_area ul{ position: relative; width: 620px; height: 100px; margin: 0 0 160px 290px; font-family: 'Nanum Gothic', sans-serif;font-weight: 400;
+                font-size: 1.25em;}
+
+#content .title_area .co_left {position: relative; position: absolute; left: 0; top: 0; width: 305px; font-size: 1.125em; }
+#content .title_area .co_right { position: absolute; right: 0; top: 0; width: 305px; font-size: 1.125em; text-align: right;}
+#content .title_area ul .co_middle {content: ''; display: block; width: 3px; height: 24px; background-color: #666; 
+        position: absolute; left: 308.5px; top: 0;}
+#content .title_area li a:hover{color: #da291c; text-decoration: overline dashed; }
+
+
+
+ 
+
+
+

@@ -1,0 +1,20 @@
+/* SUB2_2 타이틀 추가 수정 영역 */
+
+.title_area .h2_div {background-color:rgba(204,204,204, .2); padding-bottom: 100px;}
+.title_area .h2_div h2{color:#333;}
+.title_area .h2_div dl  {height: 300px; width: 1000px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;
+    line-height: 1.5em; font-size: 1.5em; border-radius: 25px; border: solid 3px #c9e3a6; 
+    background-color: #fff; opacity: .9; padding: 20px; margin: 50px 0 0 77px;}  
+.title_area .h2_div dt{font-size: 1.563em; margin: 10px 0 50px 0; color: #2ea275;}
+.title_area .h2_div strong {color: #d00024}
+
+
+/* SUB 2_2 본문 영역 */
+.content_area dl {margin-bottom: 200px; line-height: 2em;}
+.content_area dt {font-weight: bold; font-size: 1.5em;margin-bottom: 15px; }
+.content_area dd { font-size: 1.2em; margin-bottom: 40px;}
+
+.content_area div {text-align: center;}
+.content_area div p{font-size: 1.625em; font-family: 'Nanum Gothic', sans-serif;font-weight: 700; margin-bottom: 60px;}
+.content_area div dl {background: url(../images/content2/content_img.png) no-repeat center; text-indent: -9999px; height: 600px;}
+
